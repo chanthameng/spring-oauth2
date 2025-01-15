@@ -28,8 +28,7 @@ public class SecurityConfig {
                 })
 
                 .oauth2Login(oauth2login->{
-                    oauth2login.loginPage("/login")
-                            .defaultSuccessUrl("/api/v1/demo", true);
+                    oauth2login.loginPage("/login").defaultSuccessUrl("/api/v1/demo", true);
                 })
                 .build();
     }
