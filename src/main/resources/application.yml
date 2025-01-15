@@ -1,0 +1,11 @@
+  spring:
+    security:
+      oauth2:
+        client:
+          registration:
+            github:
+              clientId: Iv23liUOfQS2vQu9SdGW
+              clientSecret: 8e4f10323ae42f697b6d1b3b5f31e70d3051da4f
+              redirect-uri: "{baseUrl}/login/oauth2/code/github"
+
+
